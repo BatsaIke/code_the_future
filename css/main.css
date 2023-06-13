@@ -79,17 +79,42 @@ button:hover{
   /* Styles specific to small screens */
   .container {
     flex-direction: column-reverse;
-    align-self: center;
-    max-width: "100%";
+   
+  }
+  .CTA-heading{
+    /* font-size: 1.0rem; */
+   
+    text-align: center;
+    color: #ffffff;
+  
+  }
+  .div-CTA{
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* width: 100%; */
+   
+    align-items: center;
+    justify-content: center;
+   
+    /* padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 24px;
+    padding-top: 24px;
+    margin-left: auto;
+    margin-right: auto; */
+  }
+  .flex-container{
+   
+    flex-direction: row;
     margin-top: 0;
     margin-bottom: 0;
-    padding-top: 0;
-    padding-bottom: 0;
   }
   .testimonial-container{
    flex-direction: column;
-    margin-top: 24px;
+    row-gap: 2rem;
+
   }
+  
   .features-container{
     flex-direction: column;
   }
@@ -100,6 +125,21 @@ button:hover{
   }
   p{
     text-align: left;
+  }
+  .nav{
+    display: none;
+    
+  
+  }
+  .left-item{
+    flex-direction: row;
+    margin-bottom: 15px;
+    padding-top: 12px;
+  
+    margin-left: auto ;
+    margin-right: auto;
+
+    
   }
 }
 
@@ -221,6 +261,7 @@ h3.txt{
   margin: auto;
   margin-top: 33px;
   text-align: center;
+  align-items: center;
 }
 .testimonia-h2{
 font-weight: bold;
@@ -264,7 +305,6 @@ h5{
   padding-top: 24px;
   margin-left: auto;
   margin-right: auto;
-
 }
 .CTA-heading{
   font-size: 2.0rem;
