@@ -124,7 +124,7 @@ button:hover{
     
   }
   p{
-    text-align: left;
+    text-align: center;
   }
   .nav{
     display: none;
@@ -371,4 +371,9 @@ footer-container{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+p{
+  text-align: center;
+  font-size: 16px;
 }
