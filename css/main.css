@@ -401,8 +401,7 @@ p{
 }
 
 .overlay-text {
-  margin: auto;
-  bottom: 4px;
+ 
   color: #ffffff; /* Change the text color as needed */
   font-size: 36px; /* Adjust the font size as needed */
   font-weight: bold;
